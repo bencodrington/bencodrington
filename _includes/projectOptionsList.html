@@ -22,7 +22,7 @@
     <!-- Details -->
     {% unless include.isDetailsPage %}
         {% capture detailsUrl %}
-            {{ include.projectData.id | prepend: "/project/" }}
+            {{ include.projectData.id | prepend: "/project/" | relative_url }}
         {% endcapture %}
         {% include projectOption.html
             url=detailsUrl
