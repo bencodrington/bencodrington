@@ -2,7 +2,9 @@
     {% include sectionHeader.html role=include.role %}
     <div class='wrapper'>
         <ul id='projectList'>
-            <h2>TODO: projects</h2>
+            {% for project in site.data.projects %}
+            {% include project.html projectData=project %}
+            {% endfor %}
         </ul>
     </div>
 </section>

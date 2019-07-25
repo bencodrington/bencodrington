@@ -1,0 +1,36 @@
+<li class='project' data-project='{{ include.projectData.id }}''>
+    <div class='project__img-container colour--{{ include.projectData.id }}'>
+        <img src='{{ site.data.constants.PROJECT_IMG_DIRECTORY }}{{ include.projectData.logo }}'
+            alt='{{ include.projectData.logoAltText }}' >
+    </div>
+    <div class='project__txt-container'>
+        <h3>{{ include.projectData.title }}<span class='project__txt-container__subtitle'>[ {{ include.projectData.primaryLanguage }} ]</span></h3>
+        <ul class='project-options'>
+            <!-- Link -->
+            {% if include.projectData.link %}
+            {% include projectOption.html
+                url=include.projectData.link.url
+                text=include.projectData.link.title
+                icon=include.projectData.link.icon
+            %}
+            {% endif %}
+            <!-- Code -->
+            {% if include.projectData.codeUrl %}
+            {% include projectOption.html
+                url=include.projectData.codeUrl
+                text='Code'
+                icon='code'
+            %}
+            {% endif %}
+            <!-- Details -->
+            {% capture detailsUrl %}
+            {{ include.projectData.id | prepend: "/projects/" }}
+            {% endcapture %}
+            {% include projectOption.html
+                url=detailsUrl
+                text='Details'
+                icon='cog'
+            %}
+        </ul>
+    </div>
+</li>

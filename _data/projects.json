@@ -1,0 +1,78 @@
+[
+    {
+        "id": "sleeperagent",
+        "logo": "sleeperagent/thumb.png",
+        "logoAltText": "Sleeper Agent: Ghost Protocol Logo",
+        "title": "Sleeper Agent",
+        "primaryLanguage": "JS",
+        "link": {
+            "title": "Game",
+            "url": "https://projectbench.itch.io/sleeper-agent-ghost-protocol",
+            "icon": "gamepad"
+        },
+        "codeUrl": "https://github.com/bencodrington/sleeper-agent"
+    },
+    {
+        "id": "phanary",
+        "logo": "phanary/thumb.png",
+        "logoAltText": "Phanary Logo",
+        "title": "Phanary",
+        "primaryLanguage": "JS",
+        "link": {
+            "title": "Web-App",
+            "url": "http://phanary.com",
+            "icon": "link"
+        },
+        "codeUrl": "https://github.com/bencodrington/phanary"
+    },
+    {
+        "id": "wamsit",
+        "logo": "wamsit/thumb.png",
+        "logoAltText": "Wamsit Logo",
+        "title": "WAMSIT",
+        "primaryLanguage": "JS",
+        "link": {
+            "title": "Report",
+            "url": "https://devpost.com/software/wamsit-what-actor-movie-show-is-it",
+            "icon": "pencil"
+        },
+        "codeUrl": "https://github.com/samcodrington/hackthenorth"
+    },
+    {
+        "id": "wyrmling",
+        "logo": "wyrmling/thumb.png",
+        "logoAltText": "Wyrmling: First Hunt Logo",
+        "title": "Wyrmling",
+        "primaryLanguage": "JS",
+        "link": {
+            "title": "Game",
+            "url": "https://projectbench.itch.io/wyrmling",
+            "icon": "gamepad"
+        },
+        "codeUrl": "https://github.com/bencodrington/wyrmling"
+    },
+    {
+        "id": "scribblehead",
+        "logo": "scribblehead/thumb.png",
+        "logoAltText": "ScribbleHead Logo",
+        "title": "ScribbleHead",
+        "primaryLanguage": "C#",
+        "link": {
+            "title": "Game",
+            "url": "https://projectbench.itch.io/scribblehead",
+            "icon": "gamepad"
+        }
+    },
+    {
+        "id": "sixsixsixflags",
+        "logo": "666flags/thumb.png",
+        "logoAltText": "SixSixSixFlags Logo",
+        "title": "SixSixSixFlags",
+        "primaryLanguage": "Python",
+        "link": {
+            "title": "Game",
+            "url": "https://projectbench.itch.io/sixsixsixflags",
+            "icon": "gamepad"
+        }
+    }
+]
