@@ -1,0 +1,11 @@
+.wrapper {
+    /* padding-left: 18px;
+    padding-right: 18px; */
+    max-width: 545px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+
+    @include atMedium {
+        max-width: 1236px;
+    }
+}

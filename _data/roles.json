@@ -1,0 +1,32 @@
+{   
+    "majorRole": {
+        "title": "Projects",
+        "imageSource": "assets/img/projects/projects-lowres.png",
+        "imageSourceSet": "assets/img/projects/projects-hires.png 250w, assets/img/projects/projects-maxres.png 500w",
+        "altText": "Wrench Icon"
+    },
+    "minorRoles": [
+        {
+            "title": "Designer",
+            "bullets": [
+                "Designer at COMPSA Web Services(2015-2016)",
+                "Traditional and digital artist",
+                "Experience using Photoshop to create art, mockups, and visual assets"
+            ],
+            "imageSource": "assets/img/about/design-lowres.png",
+            "imageSourceSet": "assets/img/about/design-hires.png 250w, assets/img/about/design-maxres.png 500w",
+            "altText": "Paintbrush Icon"
+        },
+        {
+            "title": "Developer",
+            "bullets": [
+                "4th year Software Design student at Queen's University",
+                "Teaching Assistant (2016-18)",
+                "Aspiring game developer and enthusiast, with practical Unity experience"
+            ],
+            "imageSource": "assets/img/about/develop-lowres.png",
+            "imageSourceSet": "assets/img/about/develop-hires.png 250w, assets/img/about/develop-maxres.png 500w",
+            "altText": "Programming Icon"
+        }
+    ]
+}

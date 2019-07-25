@@ -1,0 +1,119 @@
+.project-options {
+
+    font-size: 1rem;
+    display: flex;
+    flex-grow: 1;
+
+    &.project-options--fixed-height {
+        height: 5rem;
+
+        @include atSmall {
+            flex-direction: column;
+            height: 10rem;
+
+            li {
+                width: 260px;
+                height: 2.5rem;
+                flex-grow: 1;
+                margin: 0;
+                margin-top: 3px;
+            }
+
+            li a {
+                font-size: 1.15rem;
+            }
+
+            li a i {
+                font-size: 2.25rem;
+            }
+
+            .project-options__icon {
+            }
+        }
+    }
+
+    li {
+        background: $midGrey;
+        width: 100%;
+        border-radius: 5px;
+        transition: background 0.1s ease, font-size 0.2s ease;
+        cursor: pointer;
+        margin-left: 3px;
+
+        &:first-child {
+            margin: 0;
+        }
+
+        a {
+            display: inline-block;
+            color: $lightGrey;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 0;
+            height: 100%;
+        }
+
+        a::before {
+            border: none;
+        }
+
+        .project-options__icon {
+            flex-grow: 1;
+            position: relative;
+        }
+
+        i {
+            font-size: 2rem;
+            color: $peach;
+            transition: color 0.3s ease, transform 0.1s ease, font-size 0.2s ease;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
+
+        &:hover {
+            background: $peach;
+
+            a.project__show-details i {
+                transform: translate(-50%, -50%) rotate(90deg) scale(1.25);
+                color: $lightGrey;
+            }
+
+            i {
+                transform: translate(-50%, -50%) scale(1.25);
+                color: $lightGrey;
+            }
+        }
+
+        @include atSmall {
+            font-size: 1.5rem;
+            i {
+                font-size: 3rem;
+            }
+        }
+        
+        @include atMedium {
+            font-size: 1.25rem;
+            i {
+                font-size: 2.5rem;
+            }
+        }
+        
+        @include atLarge {
+            font-size: 1.15rem;
+            i {
+                font-size: 2.25rem;
+            }
+        }
+        
+        @include atExtraLarge {
+            font-size: 1.35rem;
+            i {
+                font-size: 2.75rem;
+            }
+        }
+    }
+
+}

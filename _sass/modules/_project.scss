@@ -1,0 +1,102 @@
+.project {
+    width: 100%;
+    display: flex;
+    float: left;
+    margin-bottom: 2rem;
+
+    @include atMedium {
+        width: 49%;
+
+        &:nth-child(even) {
+            margin-left: 2%;
+        }
+    }
+
+    @include atLarge {
+        width: 32%;
+        margin-left: 2%;
+        
+        &:nth-child(3n + 1) {
+            margin-left: 0;
+        }
+    }
+
+    &__img-container {
+        background: $midGrey;
+        float: left;
+        width: 33.3%;
+        height: 0;
+        padding-top: 33.3%;
+        position: relative;
+        overflow: hidden;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        cursor: pointer;
+
+        img {
+            width: 65%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateZ(0) translate(-50%, -50%);
+            transform-origin: 0 0;
+            transition: transform 0.3s ease;
+            margin: 0 auto;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba($lightPurple, 0.3);
+            transform: scale(0);
+            border-radius: 50%;
+            transition: transform 0.2s ease, border-radius 0.2s ease;
+        }
+        
+        &:hover {
+            img {
+                transform: translateZ(0) translate(-50%, -55%);
+            }
+
+            &::before {
+                transform: scale(1);
+                border-radius: 0;
+                animation: circle2Square 0.2s;
+            }
+        }
+    }
+
+    &__txt-container {
+        width: 66%;
+        margin-left: 3px;
+        float: right;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        border-left: 1px solid $lightPurple;
+        padding-left: 3px;
+
+        h3 {
+            padding-left: .25rem;
+            font-size: 1.15rem;
+            width: 100%;
+            white-space: nowrap;
+        }
+
+        &__subtitle {
+            font-size: 1rem;
+            margin-left: .25rem;
+            color: $lightPurple;
+        }
+
+        @include atSmall {
+            h3 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

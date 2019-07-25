@@ -1,0 +1,14 @@
+.links {
+    float: right;
+    margin-right: .5rem;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    @include atSmall {
+        margin-right: 1.75rem;
+    }
+}

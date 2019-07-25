@@ -1,0 +1,60 @@
+header {
+    background: $midGrey;
+    height: 15rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid $peach;
+
+    @include atSmall {
+        min-height: 25rem;
+    }
+
+    img {
+        position: absolute;
+        height: 12rem;
+        bottom: 0px;
+        left: -10%;
+
+        @include atSmall {
+            height: 20rem;
+        }
+
+        @include atMedium {
+            left: 0;
+            height: 22rem;
+        }
+
+        @include atLarge {
+            margin-left: 12.5%;
+        }
+    }
+
+    h1 {
+        font-weight: 100;
+        font-size: 1.75rem;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        margin-left: 2rem;
+        color: $lightTurquoise;
+        top: 50%;
+        transform: translateY(-50%);
+        
+        @include atSmall {
+            font-size: 2.5rem;
+        }
+        
+        @include atMedium {
+            font-size: 3.25rem;
+        }
+        
+        @include atLarge {
+            font-size: 4rem;
+        }
+
+        @include atExtraLarge {
+            font-size: 4.75rem;
+        }
+    }
+}

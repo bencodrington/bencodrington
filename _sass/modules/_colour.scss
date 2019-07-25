@@ -1,0 +1,20 @@
+.project__img-container.colour {
+    &--phanary {
+        background: $projectPhanary;
+    }
+    &--wyrmling {
+        background: $projectWyrmling;
+    }
+    &--scribblehead {
+        background: $projectScribbleHead;
+    }
+    &--sixsixsixflags {
+        background: $projectSixSixSixFlags;
+    }
+    &--wamsit {
+        background: $projectWamsit;
+    }
+    &--sleeperagent {
+        background: $projectSleeperAgent;
+    }
+}
