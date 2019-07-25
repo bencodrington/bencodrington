@@ -1,0 +1,21 @@
+---
+title: WAMSIT - Project
+layout: projectDetails
+projectId: wamsit
+languages: JS (jQuery), HTML, CSS (PostCSS).
+tools: Node.js, MongoDB, Express, webpack, gulp, Microsoft Azure Face API.
+disclaimer: September 16-17, 2017
+---
+<p>
+    <em>WAMSIT: What Actor/Movie/Show Is It?</em> is a project I built with a partner in 36 hours for <a href='https://hackthenorth.com'>Hack The North 2017</a>.
+    It's a website that takes the URL of an image, identifies any faces in the image using Microsoft Azure's Face API, and attempts to identify the faces by comparing them to its MongoDB database of actors.
+    WAMSIT then searches <a href='https://www.themoviedb.org/'>TMDB</a>, finding a list of movies and shows that each actor appears in, then cross-referencing them to try to guess which movie or show the image is from.
+</p>
+<img class='overlay__img' src="{{ site.data.constants.PROJECT_IMG_DIRECTORY }}wamsit/demo.gif" alt="Using WAMSIT to identify a still from Crazy, Stupid, Love.">
+<p>
+    Despite the time limit, we were able to add a layer of polish to the site, like the ability to open the TMDB page for the actors/movies/shows that WAMSIT displays directly by simply clicking the result.
+    The site was designed responsively to look great on desktop and mobile using gulp, webpack and PostCSS.
+</p>
+<p>
+    This project gave me experience with using external REST APIs and I learned valuable lessons about scope when paring down features and stretch goals to meet the strict 36-hour deadline.
+</p>

@@ -1,0 +1,33 @@
+{% if include.isDetailsPage %}
+<ul class='project-options project-options--fixed-height overlay__header__left'>
+{% else %}
+<ul class='project-options'>
+{% endif %}
+    <!-- Link -->
+    {% if include.projectData.link %}
+    {% include projectOption.html
+        url=include.projectData.link.url
+        text=include.projectData.link.title
+        icon=include.projectData.link.icon
+    %}
+    {% endif %}
+    <!-- Code -->
+    {% if include.projectData.codeUrl %}
+    {% include projectOption.html
+        url=include.projectData.codeUrl
+        text='Code'
+        icon='code'
+    %}
+    {% endif %}
+    <!-- Details -->
+    {% unless include.isDetailsPage %}
+        {% capture detailsUrl %}
+            {{ include.projectData.id | prepend: "/project/" }}
+        {% endcapture %}
+        {% include projectOption.html
+            url=detailsUrl
+            text='Details'
+            icon='cog'
+        %}
+    {% endunless %}
+</ul>

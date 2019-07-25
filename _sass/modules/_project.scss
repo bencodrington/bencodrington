@@ -53,6 +53,7 @@
             bottom: 0;
             background: rgba($lightPurple, 0.3);
             transform: scale(0);
+            border: none;
             border-radius: 50%;
             transition: transform 0.2s ease, border-radius 0.2s ease;
         }

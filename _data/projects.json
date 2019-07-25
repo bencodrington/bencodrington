@@ -30,6 +30,7 @@
         "logo": "wamsit/thumb.png",
         "logoAltText": "Wamsit Logo",
         "title": "WAMSIT",
+        "longTitle": "WAMSIT: Which Actor/Movie/Show Is It?",
         "primaryLanguage": "JS",
         "link": {
             "title": "Report",
@@ -43,6 +44,7 @@
         "logo": "wyrmling/thumb.png",
         "logoAltText": "Wyrmling: First Hunt Logo",
         "title": "Wyrmling",
+        "longTitle": "Wyrmling: First Hunt",
         "primaryLanguage": "JS",
         "link": {
             "title": "Game",
