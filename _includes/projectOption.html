@@ -1,5 +1,9 @@
 <li>
-    <a href='{{ include.url }}'>{{ include.text }}
+    <a
+        {% if include.icon == 'cog' %}
+        class='project__show-details'
+        {% endif %}
+        href='{{ include.url }}'>{{ include.text }}
         <div class='project-options__icon'>
             <i class='fa fa-{{ include.icon }}'></i>
         </div>
