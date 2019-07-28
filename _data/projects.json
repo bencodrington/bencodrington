@@ -4,6 +4,7 @@
         "logo": "sleeperagent/thumb.png",
         "logoAltText": "Sleeper Agent: Ghost Protocol Logo",
         "title": "Sleeper Agent",
+        "longTitle": "Sleeper Agent: Ghost Protocol",
         "primaryLanguage": "JS",
         "link": {
             "title": "Game",

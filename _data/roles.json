@@ -20,13 +20,15 @@
         {
             "title": "Developer",
             "bullets": [
+                "Software Developer at <a href='https://www.bmo.com/main/personal'>BMO Bank of Montreal</a> (May 2018-August 2019)",
                 "4th year Software Design student at <a href=\"http://www.queensu.ca/\">Queen's University</a>",
                 "Teaching Assistant (2016-18)",
                 "Aspiring game <a href='https://projectbench.itch.io'>developer</a> and enthusiast, with practical Unity experience"
             ],
             "imageSource": "assets/img/about/develop-lowres.png",
             "imageSourceSet": "assets/img/about/develop-hires.png 250w, assets/img/about/develop-maxres.png 500w",
-            "altText": "Programming Icon"
+            "altText": "Programming Icon",
+            "needsIconSpacing": true
         }
     ]
 }

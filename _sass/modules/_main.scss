@@ -2,5 +2,7 @@ main {
     background: $darkGrey;
     padding-top: 2rem;
     z-index: 1;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.5); //0, 0, 1rem black, 0;
 }

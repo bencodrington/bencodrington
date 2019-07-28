@@ -12,12 +12,12 @@ header {
 
     img {
         position: absolute;
-        height: 12rem;
+        height: 10rem;
         bottom: 0px;
         left: -10%;
 
         @include atSmall {
-            height: 20rem;
+            height: 18rem;
         }
 
         @include atMedium {
@@ -26,6 +26,10 @@ header {
         }
 
         @include atLarge {
+            margin-left: 5%;
+        }
+
+        @include atExtraLarge {
             margin-left: 12.5%;
         }
     }

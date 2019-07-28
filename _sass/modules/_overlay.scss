@@ -63,7 +63,6 @@
     
     &__img--half {
         display: inline-block;
-        float: left;
     }
 
     &__img--small {
@@ -73,9 +72,6 @@
     @include atSmall {
         &__img--half {
             width: 49%;
-        }
-
-        &__img--half:first-child {
         }
     }
 
