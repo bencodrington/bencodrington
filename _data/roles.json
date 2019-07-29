@@ -2,7 +2,15 @@
     "majorRole": {
         "title": "Projects",
         "imageSource": "assets/img/projects/projects-lowres.png",
-        "imageSourceSet": "assets/img/projects/projects-hires.png 250w, assets/img/projects/projects-maxres.png 500w",
+        "imageSourceSet": [
+            {
+                "url": "assets/img/about/projects-hires.png",
+                "width": "250w"
+            }, {
+                "url": "assets/img/about/projects-maxres.png",
+                "width": "500w"
+            }
+        ],
         "altText": "Wrench Icon"
     },
     "minorRoles": [
@@ -14,7 +22,15 @@
                 "Experience using Photoshop to create art, mockups, and visual assets"
             ],
             "imageSource": "assets/img/about/design-lowres.png",
-            "imageSourceSet": "assets/img/about/design-hires.png 250w, assets/img/about/design-maxres.png 500w",
+            "imageSourceSet": [
+                {
+                    "url": "assets/img/about/design-hires.png",
+                    "width": "250w"
+                }, {
+                    "url": "assets/img/about/design-maxres.png",
+                    "width": "500w"
+                }
+            ],
             "altText": "Paintbrush Icon"
         },
         {
@@ -26,7 +42,15 @@
                 "Aspiring game <a href='https://projectbench.itch.io'>developer</a> and enthusiast, with practical Unity experience"
             ],
             "imageSource": "assets/img/about/develop-lowres.png",
-            "imageSourceSet": "assets/img/about/develop-hires.png 250w, assets/img/about/develop-maxres.png 500w",
+            "imageSourceSet": [
+                {
+                    "url": "assets/img/about/develop-hires.png",
+                    "width": "250w"
+                }, {
+                    "url": "assets/img/about/develop-maxres.png",
+                    "width": "500w"
+                }
+            ],
             "altText": "Programming Icon",
             "needsIconSpacing": true
         }

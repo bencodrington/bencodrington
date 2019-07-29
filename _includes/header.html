@@ -1,11 +1,10 @@
 <header>
-    <img src='/assets/img/header-cropped-lowres.png'
-        srcset='/assets/img/header-cropped-medres.png 1000w, /assets/img/header-cropped-hires.png 1200w, /assets/img/header-cropped-maxres.png 1720w'
+    <img src='{{ "/assets/img/header-cropped-lowres.png" | relative_url }}'
+        srcset='{{"/assets/img/header-cropped-medres.png" | relative_url}} 1000w, {{"/assets/img/header-cropped-hires.png" | relative_url}} 1200w, {{"/assets/img/header-cropped-maxres.png" | relative_url}} 1720w'
         alt='Self-Portrait of Ben Codrington.'>
     <h1>Ben Codrington</h1>
     <div class='links'>
         <a class='btn' href="mailto:ben.codrington@queensu.ca"><i class='fa fa-envelope-square'></i></a>
-        <!-- <a class='btn' href="#"><i class='fa fa-file-text'></i></a> -->
         <a class='btn' href="https://github.com/bencodrington"><i class='fa fa-github-square'></i></a>
         <a class='btn' href="https://www.linkedin.com/in/bencodrington/"><i class='fa fa-linkedin-square'></i></a>
         <a class='btn' href="https://www.instagram.com/bencodrington/"><i class='fa fa-instagram'></i></a>

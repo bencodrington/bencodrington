@@ -1,13 +1,18 @@
 <div class='section__header'>
     <h2>
+        {% assign sourceSet = "" %}
+        {% for source in include.role.imageSourceSet %}
+        {% assign relativeSourceUrl = source.url | relative_url %}
+        {% assign sourceSet = sourceSet | append: relativeSourceUrl | append: " " | append: source.width | append: " " %}
+        {% endfor %}
         {% if include.role.needsIconSpacing %}
         <img class="center-vertical right-margin"
-            src="{{ include.role.imageSource }}"
-            srcset="{{ include.role.imageSourceSet }}"
+            src="{{ include.role.imageSource | relative_url }}"
+            srcset="{{ sourceSet }}"
             alt="{{ include.role.altText }}">
         {% else %}
-        <img src="{{ include.role.imageSource }}"
-            srcset="{{ include.role.imageSourceSet }}"
+        <img src="{{ include.role.imageSource | relative_url }}"
+            srcset="{{ sourceSet }}"
             alt="{{ include.role.altText }}">
         {% endif %}
         {{ include.role.title }}
