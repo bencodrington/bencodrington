@@ -29,7 +29,7 @@ a {
     color: $peach;
     position: relative;
     white-space: nowrap;
-    transition: color 0.2s ease-in-out;
+    transition: color 0.1s ease-in-out;
 
     &::before {
         border-bottom: 1px solid $peach;
@@ -64,4 +64,8 @@ ul {
 .center {
     width: 100%;
     text-align: center;
+}
+
+.top-margin {
+    margin-top: 2rem;
 }
