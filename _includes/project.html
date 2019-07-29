@@ -1,5 +1,5 @@
 <li class='project' data-project='{{ include.projectData.id }}'>
-    <a href='{{ include.projectData.id | prepend: "/project/" | relative_url }}' class='project__img-container colour--{{ include.projectData.id }}'>
+    <a href='{{ include.projectData.id | prepend: "project/" | relative_url }}' class='project__img-container colour--{{ include.projectData.id }}'>
         <img src='{{ site.data.constants.PROJECT_IMG_DIRECTORY | append: include.projectData.logo | relative_url }}'
             alt='{{ include.projectData.logoAltText }}' >
     </a>
