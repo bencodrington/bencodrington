@@ -1,5 +1,19 @@
 [
     {
+        "id": "gsds",
+        "logo": "gsds/thumb.png",
+        "logoAltText": "Galactic Senior Defense Squad Logo",
+        "title": "GSDS",
+        "longTitle": "Galactic Senior Defense Squad",
+        "primaryLanguage": "C#",
+        "link": {
+            "title": "Game",
+            "url": "https://projectbench.itch.io/gsds",
+            "icon": "gamepad"
+        },
+        "codeUrl": "https://github.com/bencodrington/project-parasite"
+    },
+    {
         "id": "sleeperagent",
         "logo": "sleeperagent/thumb.png",
         "logoAltText": "Sleeper Agent: Ghost Protocol Logo",
