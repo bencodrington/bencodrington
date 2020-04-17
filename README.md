@@ -2,7 +2,7 @@
 
 ## Setup instructions
 
-1. Make sure ruby is installed correctly: ```ruby -v``` (Ensure PATH variable contains the ruby bin folder)
+1. Make sure [Ruby](https://rubyinstaller.org/downloads/) is installed correctly: ```ruby -v``` (Ensure PATH variable contains the ruby bin folder)
 
 2. If Bundler is not yet installed, run: ```gem install bundler```
 

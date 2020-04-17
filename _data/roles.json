@@ -15,31 +15,13 @@
     },
     "minorRoles": [
         {
-            "title": "Designer",
-            "bullets": [
-                "Designer at <a href=\"http://compsawebservices.com/\">COMPSA Web Services</a><br>(2015-2016)",
-                "Traditional and digital <a href=\"https://www.instagram.com/bencodrington/\">artist</a>",
-                "Experience using Photoshop to create art, mockups, and visual assets"
-            ],
-            "imageSource": "assets/img/about/design-lowres.png",
-            "imageSourceSet": [
-                {
-                    "url": "assets/img/about/design-hires.png",
-                    "width": "250w"
-                }, {
-                    "url": "assets/img/about/design-maxres.png",
-                    "width": "500w"
-                }
-            ],
-            "altText": "Paintbrush Icon"
-        },
-        {
             "title": "Developer",
             "bullets": [
-                "Software Developer at <a href='https://www.bmo.com/main/personal'>BMO Bank of Montreal</a> (May 2018-August 2019)",
-                "4th year Software Design student at <a href=\"http://www.queensu.ca/\">Queen's University</a>",
-                "Teaching Assistant (2016-18)",
-                "Aspiring game <a href='https://projectbench.itch.io'>developer</a> and enthusiast, with practical Unity experience"
+                "Software Developer at the <a href='https://www.bmo.com/main/personal'>Bank of Montreal</a> (May 2018 - August 2019)",
+                "Bachelor of Computing (Hons.) from <a href=\"http://www.queensu.ca/\">Queen's University</a>, specialization in Software Design",
+                "Teaching Assistant (2016 - 18) and Tutor (2020)",
+                "<a href='https://projectbench.itch.io'>Game</a> developer and designer, with practical Unity experience",
+                "JavaScript, C#, Python, HTML5, CSS3"
             ],
             "imageSource": "assets/img/about/develop-lowres.png",
             "imageSourceSet": [
@@ -53,6 +35,26 @@
             ],
             "altText": "Programming Icon",
             "needsIconSpacing": true
+        },
+        {
+            "title": "Designer",
+            "bullets": [
+                "Freelance app designer (March 2020 - )",
+                "Designer at <a href=\"http://compsawebservices.com/\">COMPSA Web Services</a> (2015 - 2016)",
+                "Traditional and digital <a href=\"https://www.instagram.com/bencodrington/\">artist</a>",
+                "Extensive experience using Photoshop and Figma to to create illustrations, mockups, and visual assets"
+            ],
+            "imageSource": "assets/img/about/design-lowres.png",
+            "imageSourceSet": [
+                {
+                    "url": "assets/img/about/design-hires.png",
+                    "width": "250w"
+                }, {
+                    "url": "assets/img/about/design-maxres.png",
+                    "width": "500w"
+                }
+            ],
+            "altText": "Paintbrush Icon"
         }
     ]
 }
