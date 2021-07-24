@@ -4,7 +4,6 @@ header {
     width: 100%;
     position: relative;
     overflow: hidden;
-    border-bottom: 1px solid $lightTurquoise;
 
     @include atSmall {
         min-height: 25rem;
