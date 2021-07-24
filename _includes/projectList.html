@@ -1,6 +1,6 @@
 <section class='section--purple'>
-    {% include sectionHeader.html role=include.role %}
     <div class='wrapper'>
+        {% include sectionHeader.html role=include.role %}
         <ul id='projectList'>
             {% for project in site.data.projects %}
             {% include project.html projectData=project %}
