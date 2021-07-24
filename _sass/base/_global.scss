@@ -26,13 +26,13 @@ img {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: $peach;
+    color: $clickable;
     position: relative;
     white-space: nowrap;
     transition: color 0.1s ease-in-out;
 
     &::before {
-        border-bottom: 1px solid $peach;
+        border-bottom: 1px solid $clickable;
         content: '';
         position: absolute;
         top: 0;

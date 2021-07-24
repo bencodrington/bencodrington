@@ -6,12 +6,12 @@
     height: 2.5rem;
     font-size: 1.70rem;
     text-align: center;
-    color: $peach;
+    color: $clickable;
 
     &::before {
         z-index: -1;
         content: '';
-        background: $peach;
+        background: $clickable;
         border-radius: 5px;
         position: absolute;
         width: 2.5rem;
