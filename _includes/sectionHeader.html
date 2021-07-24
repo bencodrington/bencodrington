@@ -3,7 +3,7 @@
         {% assign sourceSet = "" %}
         {% for source in include.role.imageSourceSet %}
         {% assign relativeSourceUrl = source.url | relative_url %}
-        {% assign sourceSet = sourceSet | append: relativeSourceUrl | append: " " | append: source.width | append: " " %}
+        {% assign sourceSet = sourceSet | append: relativeSourceUrl | append: " " | append: source.width | append: ", " %}
         {% endfor %}
         {% if include.role.needsIconSpacing %}
         <img class="center-vertical right-margin"
