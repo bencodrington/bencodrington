@@ -7,9 +7,9 @@ section {
         margin-bottom: .5rem;
         display: flex;
         align-items: center;
+        padding-left: .5rem;
 
         img {
-            margin-left: .25rem;
             height: 4rem;
 
             @include atSmall {
