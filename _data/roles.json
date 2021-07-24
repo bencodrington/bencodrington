@@ -4,10 +4,10 @@
         "imageSource": "assets/img/projects/projects-lowres.png",
         "imageSourceSet": [
             {
-                "url": "assets/img/about/projects-hires.png",
+                "url": "assets/img/projects/projects-hires.png",
                 "width": "250w"
             }, {
-                "url": "assets/img/about/projects-maxres.png",
+                "url": "assets/img/projects/projects-maxres.png",
                 "width": "500w"
             }
         ],
@@ -17,10 +17,11 @@
         {
             "title": "Developer",
             "bullets": [
+                "Software Engineer at <a href='https://uncharted.software/'>Uncharted Software</a>",
                 "Software Developer at the <a href='https://www.bmo.com/main/personal'>Bank of Montreal</a> (May 2018 - August 2019)",
                 "Bachelor of Computing (Hons.) from <a href=\"http://www.queensu.ca/\">Queen's University</a>, specialization in Software Design",
                 "Teaching Assistant (2016 - 18) and Tutor (2020)",
-                "<a href='https://projectbench.itch.io'>Game</a> developer and designer, with practical Unity experience",
+                "<a href='https://projectbench.itch.io'>Game</a> developer and designer",
                 "JavaScript, C#, Python, HTML5, CSS3"
             ],
             "imageSource": "assets/img/about/develop-lowres.png",
@@ -39,8 +40,8 @@
         {
             "title": "Designer",
             "bullets": [
-                "Freelance app designer (March 2020 - )",
-                "Designer at <a href=\"http://compsawebservices.com/\">COMPSA Web Services</a> (2015 - 2016)",
+                "Freelance app designer (2020)",
+                "Designer at COMPSA Web Services (2015 - 2016)",
                 "Traditional and digital <a href=\"https://www.instagram.com/bencodrington/\">artist</a>",
                 "Extensive experience using Photoshop and Figma to to create illustrations, mockups, and visual assets"
             ],
