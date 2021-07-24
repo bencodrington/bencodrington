@@ -29,10 +29,8 @@
         padding-top: 33.3%;
         position: relative;
         overflow: hidden;
-        border-right: 0px solid $lightPurple;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
-        transition: border-right-width 0.1s ease;
         cursor: pointer;
 
         img {
@@ -61,7 +59,6 @@
         }
         
         &:hover {
-            border-right-width: 8px;
             img {
                 // Note that we need to translate slightly farther towards the top left
                 //  to accommodate for the larger scale
