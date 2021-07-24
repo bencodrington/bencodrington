@@ -1,11 +1,9 @@
 .wrapper {
-    /* padding-left: 18px;
-    padding-right: 18px; */
     max-width: 545px;
     margin: 0 auto;
-    /* overflow: hidden; */
 
     @include atMedium {
-        max-width: 1236px;
+        // 950px is approximately equal to 80ch at body font size
+        max-width: 950px;
     }
 }
