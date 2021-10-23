@@ -22,3 +22,8 @@
     - Add image files, including thumb.png, to this folder
     - Add colour variable to _sass/base/_variables.scss and use it in _sass/modules/_colour.scss
     - Add a details page to the 'project' folder
+
+
+## Deployment instructions
+
+1. Push to `master`
