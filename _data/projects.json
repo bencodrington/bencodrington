@@ -1,5 +1,18 @@
 [
     {
+        "id": "turbobard",
+        "logo": "turbobard/thumb.png",
+        "logoAltText": "TurboBard Logo",
+        "title": "TurboBard",
+        "primaryLanguage": "JS",
+        "link": {
+            "title": "Web app",
+            "url": "http://turbobard.com/",
+            "icon": "link"
+        },
+        "codeUrl": "https://github.com/bencodrington/turbo-bard"
+    },
+    {
         "id": "gsds",
         "logo": "gsds/thumb.png",
         "logoAltText": "Galactic Senior Defense Squad Logo",
@@ -26,19 +39,6 @@
             "icon": "gamepad"
         },
         "codeUrl": "https://github.com/bencodrington/sleeper-agent"
-    },
-    {
-        "id": "phanary",
-        "logo": "phanary/thumb.png",
-        "logoAltText": "Phanary Logo",
-        "title": "Phanary",
-        "primaryLanguage": "JS",
-        "link": {
-            "title": "Web app",
-            "url": "http://phanary.com",
-            "icon": "link"
-        },
-        "codeUrl": "https://github.com/bencodrington/phanary"
     },
     {
         "id": "wamsit",
